@@ -1,5 +1,4 @@
-import { ConnectedCounter } from "src/basic/redux";
-import { CounterWithState } from "src/basic/plain";
+import { ToDo } from "src/basic/toDo";
 import React from "react";
 import ReactDOM from "react-dom";
 
@@ -8,8 +7,7 @@ import ReactDOM from "react-dom";
 
   ReactDOM.render(
     <div>
-      <CounterWithState />
-      <ConnectedCounter />
+      <ToDo />
     </div>,
     root
   );
